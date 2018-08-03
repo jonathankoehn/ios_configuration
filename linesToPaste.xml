@@ -1,0 +1,41 @@
+<!-- this is not the full file, but only an excerpt to paste in an individual configuration -->
+<key>OnDemandEnabled</key>
+<integer>1</integer>
+<key>OnDemandRules</key>
+<array>
+
+  <dict>
+    <key>InterfaceTypeMatch</key>
+    <string>WiFi</string>
+    <key>SSIDMatch</key>
+    <array>
+      <!-- list the wifis you trust -->
+      <string>wifi name</string>
+      <string>wifi name2</string>
+    </array>
+    <key>Action</key>
+    <string>Disconnect</string>
+  </dict>
+
+  <dict>
+    <key>InterfaceTypeMatch</key>
+    <string>WiFi</string>
+    <key>Action</key>
+    <string>Connect</string>
+  </dict>
+
+  <dict>
+    <key>InterfaceTypeMatch</key>
+    <string>Cellular</string>
+    <key>Action</key>
+    <!-- state if you want to connect or disconnect VPN if no Wifi is connected -->
+    <string>Disconnect</string>
+  </dict>
+
+  <dict>
+    <key>Action</key>
+    <!-- default state -->
+    <string>Disconnect</string>
+  </dict>
+  
+</array>
