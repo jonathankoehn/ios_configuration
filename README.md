@@ -32,4 +32,4 @@ To remove the configuration, you navigate to `Settings / General / Profiles / <y
 If installed, the connection on demand can be deactivated in menu: `Settings / VPN / <your VPN name>` (press the information-symbol on the right) and switch off `Connect on demand`.
 
 ##### Note
-The configuration as created by Apple Configurator 2 also works in macOS. If you add the lines to apply the on-demand-connection, macOS will not accept the configuration.
+The configuration as created by Apple Configurator 2 also works in macOS. If you add the lines to apply the on-demand-connection, macOS will not accept the profile.
